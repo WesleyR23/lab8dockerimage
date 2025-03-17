@@ -30,7 +30,7 @@ jobs:
         
     - name: Install gke-gcloud-auth-plugin
       run:
-        gcloud components install gke-gcloud-auth-plugins
+        gcloud components install gke-gcloud-auth-plugin
 
     - name: Get GKE credentials
       run:
