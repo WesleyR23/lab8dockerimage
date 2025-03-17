@@ -43,5 +43,5 @@ jobs:
         kubectl config view
 
     - name: restart kubernetes deployment
-      run: kubectl rollout restart deployment cst407-deployment -n cst407-deployment
+      run: kubectl rollout restart deployment cst407-deployment
     
